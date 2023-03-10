@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #img-bk {
+  width: 100vw;
+  height: 100%;
+  position: fixed;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+header #social-media {
+  height: 250px;
+  width: 50px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+header #social-media .box {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.2px solid rgba(180, 180, 180, 0.2);
+}
+header #social-media .box i {
+  color: #ffffff;
+}
+header #page {
+  height: 600px;
+  width: 900px;
+  background-color: #ffffff;
+}
+header #page .navbar {
+  width: 100%;
+  height: 210px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+header #page .navbar #photo-user {
+  width: 200px;
+  height: 100%;
+  background-image: radial-gradient(circle, #ffffff 60%, #CAC8CB 100%);
+}
+header #page .navbar #photo-user img {
+  width: 90%;
+  height: 90%;
+  margin: 10% 10% 0 10%;
+}
+header #page .navbar .barra {
+  width: calc(100% - 200px);
+  height: 100%;
+}
+header #page .navbar .barra #apres {
+  width: 100%;
+  height: 50%;
+  color: #FEFEFB;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+header #page .navbar .barra #apres .barra-nome {
+  width: 60%;
+  background-color: #3074A3;
+  display: grid;
+  place-items: center;
+}
+header #page .navbar .barra #apres .barra-funcao {
+  width: 40%;
+  background-color: #266996;
+  display: grid;
+  place-items: center;
+}
+header #page .navbar .barra .barra-menu {
+  width: 100%;
+  height: 50%;
+  color: #FEFEFB;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+header #page .navbar .barra .barra-menu .box-menu {
+  width: 20%;
+  display: grid;
+  place-items: center;
+  border: 0.1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+header #page .navbar .barra .barra-menu .home {
+  background-color: #1BBC9B;
+}
+header #page .navbar .barra .barra-menu .project {
+  background-color: #3598DB;
+}
+header #page .navbar .barra .barra-menu .work {
+  background-color: #9B58B5;
+}
+header #page .navbar .barra .barra-menu .abilities {
+  background-color: #E77E23;
+}
+header #page .navbar .barra .barra-menu .contact {
+  background-color: #E84C3D;
+}
+header #page .content {
+  width: 100%;
+  height: calc(100% - 260px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header #page .content #need {
+  color: #65b3e7;
+  padding-top: 5px;
+  font-size: 3rem;
+}
+header #page .content #iam {
+  color: #f79090;
+  padding-top: 5px;
+  font-size: 2.3rem;
+}
+header #page .content #phone {
+  padding-top: 5px;
+  font-size: 2.4rem;
+}
+header footer {
+  width: 100%;
+  height: 50px;
+  background-color: #a7bebe;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+header footer .trian {
+  height: 100%;
+  width: 50px;
+  background-color: red;
+  border-top: 3em solid #FEFEFB;
+  border-right: 3em solid #a7bebe;
+}
+header footer .content {
+  width: calc(100% - 50px);
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
